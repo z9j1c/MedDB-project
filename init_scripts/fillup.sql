@@ -26,17 +26,17 @@ INSERT INTO EMPLOYEE values (9, 'Носова Анастасия Сергеев�
 INSERT INTO EMPLOYEE values (10, 'Иванкова Анна Анатольевна', '16/1/1991', 2);
 
 /* POSITION table */
-INSERT INTO POSITION values (1, 1, 'Исполнитель всего', '1/3/1988', '1/2/1989');
-INSERT INTO POSITION values (2, 1, 'Заведующий отделением', '1/2/1989');
-INSERT INTO POSITION values (3, 2, 'Врач-нефролог',  '1/5/1995');
-INSERT INTO POSITION values (4, 3, 'Врач-нефролог',  '1/8/1995');
-INSERT INTO POSITION values (5, 4, 'Врач-нефролог',  '1/8/1997');
-INSERT INTO POSITION values (6, 5, 'Старший научный сотрудник',  '1/6/2001');
-INSERT INTO POSITION values (7, 6, 'Младший научный сотрудник',  '1/3/2017');
-INSERT INTO POSITION values (8, 7, 'Младший научный сотрудник',  '1/2/2015');
-INSERT INTO POSITION values (9, 8, 'Старшая медсестра',  '1/7/1991');
-INSERT INTO POSITION values (10, 9, 'Постовая медсестра',  '1/2/1992');
-INSERT INTO POSITION values (11, 10, 'Постовая медсестра', '1/2/1992');
+INSERT INTO POSITION values (1, 'Исполнитель всего', '1/3/1988', '1/2/1989');
+INSERT INTO POSITION values (1, 'Заведующий отделением', '1/2/1989');
+INSERT INTO POSITION values (2, 'Врач-нефролог',  '1/5/1995');
+INSERT INTO POSITION values (3, 'Врач-нефролог',  '1/8/1995');
+INSERT INTO POSITION values (4, 'Врач-нефролог',  '1/8/1997');
+INSERT INTO POSITION values (5, 'Старший научный сотрудник',  '1/6/2001');
+INSERT INTO POSITION values (6, 'Младший научный сотрудник',  '1/3/2017');
+INSERT INTO POSITION values (7, 'Младший научный сотрудник',  '1/2/2015');
+INSERT INTO POSITION values (8, 'Старшая медсестра',  '1/7/1991');
+INSERT INTO POSITION values (9, 'Постовая медсестра',  '1/2/1992');
+INSERT INTO POSITION values (10, 'Постовая медсестра', '1/2/1992');
 
 /* MEDFILE table */
 INSERT INTO MEDFILE values (1, 1, 3, '1/2/2005');

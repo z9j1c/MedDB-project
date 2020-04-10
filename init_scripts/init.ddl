@@ -13,11 +13,11 @@ CREATE TABLE MED_DEPARTMENT_DB.PUBLIC.PATIENT
 
 CREATE TABLE MED_DEPARTMENT_DB.PUBLIC.POSITION
 (
-    position_record_id SERIAL PRIMARY KEY,
     employee_id SERIAL NOT NULL,
     position_title VARCHAR(255),
     begin_dt DATE CHECK (begin_dt > '1/1/1970'),
     end_dt DATE CHECK (end_dt >= begin_dt) DEFAULT '1/1/9999',
+    PRIMARY KEY(employee_id, begin_dt),
     FOREIGN KEY(employee_id) REFERENCES MED_DEPARTMENT_DB.PUBLIC.EMPLOYEE(employee_id)
 );
 
