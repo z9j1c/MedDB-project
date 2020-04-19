@@ -95,7 +95,7 @@ INSERT INTO SPECIALIST_ADVICE values ('jfnj556', 5, 3, '1/12/2011', 'Невку�
 INSERT INTO SPECIALIST_ADVICE values ('57hhhjj', 5, 4, '1/1/2013', 'Боли в животе', 'Принимать ношпу');
 INSERT INTO SPECIALIST_ADVICE values ('56ggggg', 6, 4, '1/1/2014', 'Повышенный Ca', 'Принимать соотв. препараты');
 INSERT INTO SPECIALIST_ADVICE values ('kkmkmkk', 6, 2, '7/7/2006', 'Повышенный Mg', 'Принимать соотв. препараты');
-INSERT INTO SPECIALIST_ADVICE values ('56ggggg', 5, 2, '8/8/2006', 'Повышенный F', 'Принимать соотв. препараты');
+INSERT INTO SPECIALIST_ADVICE values ('56guggg', 5, 2, '8/8/2006', 'Повышенный F', 'Принимать соотв. препараты');
 INSERT INTO SPECIALIST_ADVICE values ('jnjn555', 6, 8, '8/1/2020', 'Повышенный Ca', 'Принимать соотв. препараты');
 INSERT INTO SPECIALIST_ADVICE values ('clpdl34', 6, 8, '9/1/2020', 'Повышенный Mg', 'Принимать соотв. препараты');
 INSERT INTO SPECIALIST_ADVICE values ('32kmkk7', 6, 8, '10/1/2020', 'Повышенный F', 'Принимать соотв. препараты');
@@ -125,16 +125,16 @@ INSERT INTO MEDICINE values (9, 'М-Эслон');
 INSERT INTO MEDICINE values (10, 'Просидол');
 
 /* ARTICLES table */
-INSERT INTO MEDICINE values ('10.1000/xyz123', 6);
-INSERT INTO MEDICINE values ('10.10450/xyz123', 5);
-INSERT INTO MEDICINE values ('10.1000/xjkz23', 7);
-INSERT INTO MEDICINE values ('10.1000/xyz153', 7);
-INSERT INTO MEDICINE values ('10.1000/xyz888', 5);
-INSERT INTO MEDICINE values ('10.3002/xyz435', 7);
-INSERT INTO MEDICINE values ('10.5868/xfz123', 5);
-INSERT INTO MEDICINE values ('10.1030/gg5g66', 7);
-INSERT INTO MEDICINE values ('10.1023kmvkf5', 6);
-INSERT INTO MEDICINE values ('10.2222/xtk183', 5);
+INSERT INTO ARTICLE values ('10.1000/xyz123', 6);
+INSERT INTO ARTICLE values ('10.10450/xyz123', 5);
+INSERT INTO ARTICLE values ('10.1000/xjkz23', 7);
+INSERT INTO ARTICLE values ('10.1000/xyz153', 7);
+INSERT INTO ARTICLE values ('10.1000/xyz888', 5);
+INSERT INTO ARTICLE values ('10.3002/xyz435', 7);
+INSERT INTO ARTICLE values ('10.5868/xfz123', 5);
+INSERT INTO ARTICLE values ('10.1030/gg5g66', 7);
+INSERT INTO ARTICLE values ('10.1023kmvkf5', 6);
+INSERT INTO ARTICLE values ('10.2222/xtk183', 5);
 
 /* CONFERENCE table */
 INSERT INTO CONFERENCE values (1, 'Global NNHN', 304);
