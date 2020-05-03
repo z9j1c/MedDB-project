@@ -7,3 +7,8 @@
 
 + `basic_requests.sql` - простые CRUD-запросы
 + `complex_selects.sql` - SELECT-запросы с использованием `OVER()`, `GROUP BY`...
+
+### Indices & views
+
++ `views.sql` - скрипт создаия представлений
++ `indices.sql` - скрипт создания индексов
