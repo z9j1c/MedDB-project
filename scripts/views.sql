@@ -2,13 +2,14 @@
 
 /*
     Основная информация о пациентах:
-        id, имя, год рождения.
+        id, фамилия, год рождения.
     Может пригодиться при составлении списков, с которыми будут работать люди,
     не имеющие полного доступа к персональным данным.
 */
 CREATE VIEW PATIENT_GENERAL_INFO AS
     SELECT patient_id,
-           patient_nm,
+           substring(patient_nm, 1, POSITION(' ' in patient_nm)) as surname,
+           MD5(patient_nm) as name_hash,
            DATE_PART('year', birth_dt) as birth_year
     FROM PATIENT;
 
@@ -17,7 +18,8 @@ CREATE VIEW PATIENT_GENERAL_INFO AS
 */
 CREATE VIEW EMPLOYEE_GENERAL_INFO AS
     SELECT employee_id,
-           employee_nm,
+           substring(employee_nm, 1, POSITION(' ' in employee_nm)) as surname,
+           MD5(employee_nm) as name_hash,
            DATE_PART('year', birth_dt) as birth_year
     FROM EMPLOYEE;
 
