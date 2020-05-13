@@ -10,5 +10,9 @@
 
 ### Indices & views
 
-+ `views.sql` - скрипт создаия представлений
++ `views.sql` - скрипт создания представлений
 + `indices.sql` - скрипт создания индексов
+
+### Triggers
+
++ `triggers.sql` - скрипт триггеров на таблицу POSITION
