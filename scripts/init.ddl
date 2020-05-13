@@ -18,7 +18,8 @@ CREATE TABLE EMPLOYEE
     employee_id SERIAL PRIMARY KEY,
     employee_nm VARCHAR(255) NOT NULL,
     birth_dt DATE NOT NULL,
-    sex_code SMALLINT NOT NULL
+    sex_code SMALLINT NOT NULL,
+    status_txt VARCHAR(32) DEFAULT 'Working'
 );
 
 CREATE TABLE POSITION
